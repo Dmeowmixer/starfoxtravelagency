@@ -25,7 +25,6 @@ body > div.contain-to-grid{
 body > div.contain-to-grid > nav{
   width:95%;
   text-align:center;
-  border:solid 1px transparent;
   color:white;
   background-color:$gunmetal_gray;
   border-radius: 4px;
@@ -36,15 +35,15 @@ body > div.contain-to-grid > nav{
   margin-bottom:0px;
 }
 a.button {
-  padding-left:1px;
-  padding-right:1px;
+  width:32%
 }
 div.moonnback{
+  border-radius:5px;
   position:relative;
   background-color:$datbabyblue;
   margin-left:29px;
   margin-right:29px;
-  margin-top:40px;
+  margin-top:60px;
   height:250px;
   margin-bottom:50px;
 }
@@ -55,21 +54,28 @@ div.moonnback{
   width:65%;
 }
 .spaceship{
-  margin-left:700px;
+  margin-left:800px;
   position:absolute;
-  height:55%;
+  height:60%;
   width:25%;
   margin-top:-190px;
 }
 body > div.moonnback > a{
-  margin-left:700px;
+  margin-left:840px;
   width:200px;
 }
 .button{
+  border-radius:5px;
   color:white;
   background-color:$gunmetal_gray;
 }
-
+body > div.buttonzatdabottom.row > a.button.large-4.columns.one{
+  margin-right:20px;
+  padding-bottom:90px;
+}
+body > div.buttonzatdabottom.row > a.button.large-4.columns.two{
+  padding-bottom:90px;
+}
 .button h1{
   color:white;
 }
