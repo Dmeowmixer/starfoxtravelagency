@@ -1,6 +1,81 @@
+@import "partials/settings";
+@import "../bower_components/foundation/scss/foundation.scss";
+
+$datbabyblue:#99CCCC;
 $gunmetal_gray: #232329;
 
-body{
-  background: $gunmetal_gray;
-  color:yellow;
+
+div.headbar{
+  background-image:url('/images/header_bg.png');
+  padding-top:30px;
+  border-bottom:30px;
+  position:relative;
+}
+header{
+  background-color:$datbabyblue;
+}
+img.headimg{
+  margin-left:450px;
+}
+
+body > div.contain-to-grid{
+  background-color:$datbabyblue;
+  height:8%;
+}
+body > div.contain-to-grid > nav{
+  width:95%;
+  text-align:center;
+  border:solid 1px transparent;
+  color:white;
+  background-color:$gunmetal_gray;
+  border-radius: 4px;
+}
+#name{
+  text-align:center;
+  padding-bottom:20px;
+  margin-bottom:0px;
+}
+a.button {
+  padding-left:1px;
+  padding-right:1px;
+}
+div.moonnback{
+  position:relative;
+  background-color:$datbabyblue;
+  margin-left:29px;
+  margin-right:29px;
+  margin-top:40px;
+  height:250px;
+  margin-bottom:50px;
+}
+.moonnbacktext{
+  padding-top:30px;
+  padding-left:30px;
+  text-align:left;
+  width:65%;
+}
+.spaceship{
+  margin-left:700px;
+  position:absolute;
+  height:55%;
+  width:25%;
+  margin-top:-190px;
+}
+body > div.moonnback > a{
+  margin-left:700px;
+  width:200px;
+}
+.button{
+  color:white;
+  background-color:$gunmetal_gray;
+}
+
+.button h1{
+  color:white;
+}
+
+.footerbar{
+  text-align: center;
+  color:white;
+  background-color:$gunmetal_gray;
 }
