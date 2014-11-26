@@ -5566,11 +5566,10 @@ header {
   background-color: #99CCCC; }
 
 img.headimg {
-  margin-left: 450px; }
+  margin-left: 550px; }
 
 body > div.contain-to-grid {
-  background-color: #99CCCC;
-  height: 8%; }
+  background-color: #99CCCC; }
 
 body > div.contain-to-grid > nav {
   width: 95%;
@@ -5604,7 +5603,7 @@ div.moonnback {
   width: 65%; }
 
 .spaceship {
-  margin-left: 800px;
+  margin-left: 900px;
   position: absolute;
   height: 60%;
   width: 25%;
