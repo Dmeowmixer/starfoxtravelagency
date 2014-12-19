@@ -9,24 +9,36 @@ div.headbar{
   background-image:url('/images/header_bg.png');
   padding-top:30px;
   border-bottom:30px;
-  position:relative;
-}
-header{
-  background-color:$datbabyblue;
-}
-img.headimg{
-  margin-left:550px;
 }
 
+header{
+  background-color:$datbabyblue;
+  h5{
+    word-spacing:5px;
+    letter-spacing:0.6px;
+  }
+}
+img.headimg{
+  margin-left:850px;
+}
+.top-bar{
+  position:absolute;
+}
 body > div.contain-to-grid{
   background-color:$datbabyblue;
 }
 body > div.contain-to-grid > nav{
+  margin-bottom:50px;
+  position:absolute;
   width:95%;
   text-align:center;
   color:white;
   background-color:$gunmetal_gray;
   border-radius: 4px;
+  position:center;
+}
+a.nav_itemz{
+  margin:20px;
 }
 #name{
   text-align:center;
@@ -34,8 +46,10 @@ body > div.contain-to-grid > nav{
   margin-bottom:0px;
 }
 a.button {
-  width:32%
+  width:32%;
+  display:inline-block;
 }
+
 div.moonnback{
   border-radius:5px;
   position:relative;
@@ -68,6 +82,7 @@ body > div.moonnback > a{
   color:white;
   background-color:$gunmetal_gray;
 }
+
 body > div.buttonzatdabottom.row > a.button.large-4.columns.one{
   margin-right:20px;
   padding-bottom:90px;
